@@ -1,0 +1,14 @@
+{
+  "name": "@tub/css",
+  "version": "0.1.0",
+  "description": "A clean css-framework used for https://tub-aiglart.com",
+  "author": "Rxsto <oz@farfrom.social> (https://rxsto.me)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/main.scss build/framework.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tub-aiglart/css.git"
+  }
+}
