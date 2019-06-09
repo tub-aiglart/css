@@ -18,13 +18,18 @@
   }
 
   // Shadow
-  @each $shadow, $shadow_value in $shadow {
+  @each $shadow, $shadow_value in $shadows {
     --shadow-#{$shadow}: #{$shadow_value};
   }
 
   // Transition
-  @each $transition, $transition_value in $transition {
+  @each $transition, $transition_value in $transitions {
     --transition-#{$transition}: #{$transition_value};
+  }
+
+  // Transition
+  @each $font, $font_value in $fonts {
+    --font-#{$font}: #{$font_value};
   }
 }
 

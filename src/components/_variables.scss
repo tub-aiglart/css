@@ -2,7 +2,7 @@
 $shadow-all: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
 $shadow-bottom: 0 2px 5px 0 rgba(0,0,0,.39);
 
-$shadow: (
+$shadows: (
   "all": $shadow-all,
   "bottom": $shadow-bottom
 );
@@ -10,6 +10,14 @@ $shadow: (
 // Transition
 $transition-base: all .25s ease-in-out;
 
-$transition: (
+$transitions: (
   "base": $transition-base
+);
+
+$font-base: 'Roboto', sans-serif;
+$font-mono: 'Roboto Mono', monospace;
+
+$fonts: (
+  "base": $font-base,
+  "mono": $font-mono
 );
