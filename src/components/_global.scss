@@ -17,11 +17,6 @@
     --#{$shade}: #{$shade_value};
   }
 
-  // Radius
-  @each $radius, $radius_value in $radius {
-    --radius-#{$radius}: #{$radius_value};
-  }
-
   // Shadow
   @each $shadow, $shadow_value in $shadow {
     --shadow-#{$shadow}: #{$shadow_value};
